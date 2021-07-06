@@ -1,4 +1,4 @@
-name: Auto play store release on tag created
+name: Auto deploy artifacts on release
 
 on:
   release:
