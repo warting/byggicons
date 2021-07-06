@@ -28,7 +28,7 @@ jobs:
           distribution: 'adopt'
           java-version: 11
 
-      - name: Run Android Detekt
+      - name: Run Android checks
         run: ./gradlew check
 
       - name: Upload reports
