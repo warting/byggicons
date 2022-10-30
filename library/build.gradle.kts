@@ -5,7 +5,7 @@ plugins {
     id("com.android.library")
     id("kotlin-android")
     id("maven-publish")
-    id("org.jetbrains.dokka") version "1.4.20"
+    id("org.jetbrains.dokka") version "1.7.20"
     id("com.gladed.androidgitversion") version "0.4.14"
 }
 
@@ -17,11 +17,10 @@ repositories {
 
 
 android {
-    compileSdk = 30
+    compileSdk = 32
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 30
     }
 
     buildTypes {
@@ -44,10 +43,10 @@ android {
 }
 
 dependencies {
-    implementation("androidx.compose.ui:ui-tooling:1.0.0-rc02")
-    implementation("androidx.core:core-ktx:1.6.0")
-    implementation("androidx.appcompat:appcompat:1.3.1")
-    implementation("com.google.android.material:material:1.4.0")
+    implementation("androidx.compose.ui:ui-tooling:1.3.0")
+    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.appcompat:appcompat:1.5.1")
+    implementation("com.google.android.material:material:1.7.0")
 }
 
 
