@@ -44,7 +44,7 @@ android {
 
 dependencies {
     implementation("androidx.compose.ui:ui-tooling:1.7.8")
-    implementation("androidx.core:core-ktx:1.15.0")
+    implementation("androidx.core:core-ktx:1.16.0")
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.google.android.material:material:1.12.0")
 }
